@@ -2,16 +2,16 @@
 
 git init    //init a git 
 
- git config --global user.name "Leo.Sun" 
- git config --global user.email "568760310@qq.com" 
+git config --global user.name "Leo.Sun" 
+git config --global user.email "568760310@qq.com" 
 
-git status // check the status of the file
-
-
-git add  file_name  // add file to local save file
+git status // check the status of the local git 
 
 
-git commit -m "commit detail info" // 推送修改到本地git库中 
+git add  file_name  // add file which have fix to the local repositories 
+
+
+git commit -m "commit detail info" //  commit the fix points to the local repositories 
 
 
 
@@ -19,5 +19,16 @@ git commit -m "commit detail info" // 推送修改到本地git库中
 git config --list // check the config of state
 
 
-git push //      推送修改到yuancheng git库中
+git push          // push the local change points to remove repositories      
+
+
+
+#2
+
+
+
+git help   cmd // check help info of  cmd
+
+
+
 
